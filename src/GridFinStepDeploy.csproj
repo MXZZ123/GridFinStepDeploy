@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>GridFinStepDeploy</AssemblyName>
+    <LangVersion>7.3</LangVersion>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <Version>0.2.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="../../realisticflightloads/refs/Assembly-CSharp.dll"><Private>false</Private></Reference>
+    <Reference Include="../../realisticflightloads/refs/UnityEngine.dll"><Private>false</Private></Reference>
+    <Reference Include="../../realisticflightloads/refs/UnityEngine.CoreModule.dll"><Private>false</Private></Reference>
+    <Reference Include="../../realisticflightloads/refs/UnityEngine.AnimationModule.dll"><Private>false</Private></Reference>
+    <Reference Include="../../spxwebcastoverlay/refs/ToolbarControl.dll"><Private>false</Private></Reference>
+    <Reference Include="../../spxwebcastoverlay/refs/ClickThroughBlocker.dll"><Private>false</Private></Reference>
+    <Reference Include="../../spxwebcastoverlay/refs/UnityEngine.IMGUIModule.dll"><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>
